@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  border: 7px solid rgb(224, 212, 212);
+}
+.content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.top-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name h1 {
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.image img {
+  height: 350px;
+  border-radius: 20%;
+}
+.about {
+  margin-top: 30px;
+}
+.about h2 {
+  font-size: 45px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: white;
+}
+.about p {
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.Bibliography {
+  margin-top: 50px;
+  font-size: 21px;
+}
+.Bibliography p {
+  margin: 50x 0;
+  color: white;
+}
+
+.Bibliography h3 {
+  margin-bottom: 20px;
+  color: white;
+}
+.Bibliography ul {
+  margin-left: 50px;
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.Bibliography ul li {
+  margin-bottom: 10px;
+}
+footer {
+  text-align: end;
+  padding: 50px 0px;
+  color: white;
+}
